@@ -1,0 +1,43 @@
+.author {
+    padding: 80px 0;
+    background-color: #00d089;
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title {
+        display: flex;
+        img {
+            margin-right: 20px;
+            max-width: 100px;
+            max-height: 100px;
+        }
+    }
+
+    &__description {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 32px;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+.container {
+}
+.title-text {
+
+    &__name {
+        font-size: 26px;
+        font-weight: 700;
+        font-family: helvetica, sans-serif;
+        text-transform: uppercase;
+        color: #e4e4e4;
+    }
+
+    &__dots {
+        font-family: helvetica, sans-serif;
+        font-size: 200px;
+    }
+}

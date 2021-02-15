@@ -1,0 +1,13 @@
+.footer {
+    background-color: #00d089;
+    padding: 15px 0;
+    &__text {
+        text-align: center;
+        font-family: 'helvetica', sans-serif;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        text-transform: uppercase;
+    }
+}

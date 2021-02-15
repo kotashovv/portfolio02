@@ -1,0 +1,29 @@
+// Обнуление Стилей
+@import 'normalize';
+
+// Разметка
+@import 'grids';
+
+// Подключение шрифтов
+@import 'fonts';
+
+// Стиль шапки сайта
+@import '_header';
+
+//Стили для первой страницы Слайдера
+@import '_welcome';
+
+//Стили блока about-us
+@import '_aboutus';
+
+//Стили блока Author
+@import '_author';
+
+//Стили для Feedback
+@import '_feedback';
+
+//Стили для Footer
+@import '_footer';
+
+//Стили для адаптива
+@import '_adaptive';

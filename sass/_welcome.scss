@@ -1,0 +1,97 @@
+.welcome {
+    background-image: url(../img/bgc_slider.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 0;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+		&__item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+		}
+
+		&__title {
+            color: #e4e4e4;
+            font-family: "Helvetica";
+            font-size: 44px;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            max-width: 527px;
+            margin-bottom: 45px;
+            padding: 0 5px;
+		}
+
+		&__description {
+		}
+
+		&__bottom {
+            color: #e4e4e4;
+            font-family: "Helvetica";
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 58px;
+            text-align: center;
+            text-decoration: none;
+            border: 3px solid #afb1b4;
+            padding: 10px 40px;
+            border-radius: 10px;
+            text-transform: uppercase;
+            transition: 150ms ease-in-out;
+            max-width: 290px;
+                  &:hover {
+                  color: #55adb7;
+                  border-color: #55adb7;
+                  }
+		}
+}
+.slick-list {
+      overflow: hidden;
+}
+
+.slick-track {
+      display: flex;
+}
+
+.slider .slick-dots {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      bottom: 40px;
+      outline: none;
+}
+
+.slider .slick-dots li {
+      list-style: none;
+      font-size: 0;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #fff;
+      margin: 0 7px;
+      transition: 100ms;
+}
+
+.slider .slick-dots button {
+      border: none;
+}
+.slider .slick-dots li.slick-active {
+      background-color: #69728c;
+      transform: scale(1.5);
+      outline: none;
+}
